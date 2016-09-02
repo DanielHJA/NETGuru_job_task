@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="26747072334_c360d64f2e_b" translatesAutoresizingMaskIntoConstraints="NO" id="SMK-CD-VcU">
+                                <rect key="frame" x="60" y="300" width="480" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SMK-CD-VcU" secondAttribute="height" multiplier="8:5" id="oUg-RX-bv7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="got_logo" translatesAutoresizingMaskIntoConstraints="NO" id="u3V-XP-anV">
+                                <rect key="frame" x="30" y="209" width="543" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="u3V-XP-anV" secondAttribute="height" multiplier="543:223" id="H7o-wn-UCK"/>
+                                    <constraint firstAttribute="width" secondItem="u3V-XP-anV" secondAttribute="height" multiplier="45:22" id="svO-Z5-P0G"/>
+                                    <constraint firstAttribute="width" secondItem="u3V-XP-anV" secondAttribute="height" multiplier="15:8" id="xet-fT-wza"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="svO-Z5-P0G"/>
+                                        <exclude reference="xet-fT-wza"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="SMK-CD-VcU" secondAttribute="bottom" id="2xK-NA-udN"/>
+                            <constraint firstItem="SMK-CD-VcU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Rx9-qm-EOS"/>
+                            <constraint firstItem="SMK-CD-VcU" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.5" id="YmP-Sm-iDT"/>
+                            <constraint firstItem="u3V-XP-anV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kH5-bS-5uj"/>
+                            <constraint firstItem="SMK-CD-VcU" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.8" id="mjw-4I-p4H"/>
+                            <constraint firstItem="u3V-XP-anV" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.9" id="phl-ks-ZQ3"/>
+                            <constraint firstItem="u3V-XP-anV" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="thO-Gu-9fE"/>
+                            <constraint firstItem="u3V-XP-anV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xL6-wb-Idg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="thO-Gu-9fE"/>
+                                <exclude reference="mjw-4I-p4H"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="26747072334_c360d64f2e_b" width="1024" height="682"/>
+        <image name="got_logo" width="1500" height="400"/>
+    </resources>
+</document>
